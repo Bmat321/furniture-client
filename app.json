@@ -1,15 +1,19 @@
 {
   "expo": {
-    "name": "ecapp",
-    "slug": "ecapp",
+    "name": "furniture",
+    "slug": "furniture",
+    "description": "This is a furniture app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/furniture.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +23,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/furniture.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/furniture.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc6e217f-3974-4e08-a8b2-50cf5f4d21c5"
+      }
     }
   }
 }
